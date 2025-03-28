@@ -1,6 +1,6 @@
 # Firebase Cloud Functions - Message Cleanup
 
-A Firebase Cloud Functions project that automatically deletes old messages from a Firebase Realtime Database after a specified retention period.
+A Firebase Cloud Functions project that automatically deletes old messages from a Firebase Realtime Database after a specified retention period.  These messages will have been created using the MMM-Message-PWA application.
 
 ## Overview
 
@@ -23,8 +23,8 @@ This project contains a scheduled Firebase Cloud Function that runs daily to del
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/axdaws007/MMM-Message-Functions
+   cd MMM-Message-Functions
    ```
 
 2. Install dependencies:
@@ -105,11 +105,8 @@ firebase functions:log
 
 ## License
 
-[Add your license information here]
+MIT License - See LICENSE file for details.
 
-## Contributing
-
-[Add contribution guidelines if applicable]
 
 ## Security
 
